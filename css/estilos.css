@@ -170,8 +170,14 @@ width: 50px;
 .cajaUnoNosotros img{
     height: 400px;
     width: 900px;
+    transition: height 2s;
     /* transform: translate(25px, 75px); */
 }
+.cajaUnoNosotros img:hover{
+    height: 500px;
+    width: 1200px;
+} 
+
 .cajaUnoNosotrosP{
     margin: 80px 50px;
 }
@@ -190,12 +196,24 @@ width: 50px;
 .cajaUnoServicios img{
     height: 400px;
     width: 500px;
+    transition: height 2s, width 2s;
+
+}
+.cajaUnoServicios img:hover{
+    height: 500px;
+    width: 550px;
 }
 
 .cajaUnoServicios2 img{
     height: 300px;
     width: 600px;
+    transition: height 2s, width 2s;
 }
+.cajaUnoServicios2 img:hover{
+    height: 400px;
+    width: 800px;
+}
+
 .cajaUnoServiciosP{
     margin: 80px 50px;
 }
@@ -255,7 +273,7 @@ width: 50px;
         }
 
     .cajaPIndex{
-        margin: 330px 20px 20px 20px;
+        margin: 300px 20px 20px 20px;
         padding: 20px;
     }
     .footer__index{
@@ -336,7 +354,7 @@ width: 50px;
     }
     .headerLogo2 ul li{
         display: block;
-        margin: 1px;
+        margin: 1px 80px 1px 1px;
         font-size: 40px;
         }
 
@@ -436,7 +454,7 @@ width: 50px;
 
     .headerLogo2 ul li{
         display: block;
-        margin: 1px;
+        margin: 1px 60px 1px 1px;
         font-size: 60px;
         }
 
@@ -470,6 +488,7 @@ width: 50px;
     width: 100px;
     }
 
+
     .bloqueLinea{
         padding: 1px 1px 1px 10px ;
         display: flex;
@@ -486,6 +505,6 @@ width: 50px;
     }
     
     .mensajeContacto{
-        margin: 10px 10px 10px 225px;
+        margin: 10px 10px 10px 265px;
     }
 }
