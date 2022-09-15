@@ -1,5 +1,5 @@
 /*para cambiar la medida del rem, 1rem = a 10px. Esto se usa para que tambien se adapte al celular*/
-html{
+/* html{
     font-size: 62.5%;
 }
 
@@ -11,7 +11,7 @@ body{
     background-color: #EAAC8B;
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-}
+} */
 
 
 /* .footerGaleria{
@@ -35,7 +35,7 @@ h1{
     margin: 350px 50px 50px 50px;
 }
 
-/* PARA EL HEADER DE INDEX */
+/* PARA EL NAV DEL INDEX */
 .headerLogo{
     display: flex;
     align-items: center;
@@ -307,7 +307,7 @@ width: 50px;
 }
 
 .redesPN{
-    color: white;
+    color: #355070;
 }
 .redesN img{
 width: 50px;
