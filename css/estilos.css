@@ -389,12 +389,11 @@ width: 50px;
 
        /* SERVICIOS */
     .cajaUnoServicios{
-        margin: 90px;
-       display: flex;
+        margin: 55px 20px 55px 55px;
     }
     
     .cajaUnoServicios2{
-        margin: 10px 90px 1px 100px;
+        margin: 10px 90px 1px 55px;
        flex-direction: column-reverse;
       
     }
@@ -412,6 +411,7 @@ width: 50px;
 
     .cajaUnoServiciosP{
         font-size: 30PX;
+        margin: 70px 40px;
     }
     .cajaUnoServiciosP2{
         font-size: 30PX;
