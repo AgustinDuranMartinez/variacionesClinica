@@ -80,6 +80,12 @@ form{
     margin: 10px 5px 100px 5px;
 }
 
+/* NOSOTROS BOOTSTRAP */
+
+.mainNosotros{
+    margin: 150px 1px;
+}
+
 
     /* CONTACTO ARMANDO FORMULARIO Y MAPA */
 .bloqueLinea{
@@ -303,7 +309,7 @@ width: 50px;
 .footer__nosotros{
     grid-area: footer;
     background-color: #B56576;
-    margin: 200px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 .redesPN{
@@ -376,15 +382,15 @@ width: 50px;
         }
     
     .footer__nosotros{
-        margin: 400px 1px 1px 1px;
+        margin: 100px 1px 1px 1px;
         font-size: 80px;
     }
     .redesPN{
-        color: white;
-        font-size: 30px;
+        color: #355070;
+        font-size: 20px;
     }
     .redesN img{
-    width: 70px;
+    width: 60px;
     }
 
        /* SERVICIOS */
@@ -476,16 +482,16 @@ width: 50px;
         }
     
     .footer__nosotros{
-        margin: 400px 1px 1px 1px;
+        margin: 100px 1px 1px 1px;
         font-size: 100px;
     }
 
     .redesPN{
-        color: white;
-        font-size: 40px;
+        color: #355070;
+        font-size: 20px;
     }
     .redesN img{
-    width: 100px;
+    width: 50px;
     }
 
 
