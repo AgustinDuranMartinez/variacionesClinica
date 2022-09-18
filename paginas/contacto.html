@@ -5,26 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
     <link href="../css/estilos.css" rel="stylesheet"/>
     <link rel="shortcut icon" href="../multimedia/Logo 3.jpg">
     
-       <!-- Google Fonts -->
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
 </head>
-<body class="bodyGrid2">
-    <header class="headerLogo2 header__nosotros">
-            <img src="../multimedia/lgo variaciones.png" alt="Logo">
-            
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="galeria.html">Galeria</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </header>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light headerLogo">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../multimedia/lgo variaciones.png" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
     <main class="main__nosotros">
     <h1 class="principalH2">Contacto</h1>
 
@@ -52,12 +69,15 @@
     </div>
     </main>
 
-    <footer class="footer__nosotros">
-        <p class="redesPN">Redes sociales</p>
+    <footer class="footer__nosotros bg-light">
+        <p class="redesPN lead">Redes sociales</p>
         <div class="redesN">
-        <a href="https://www.facebook.com/" target="_blank"><img src="../multimedia/facebook.png" alt="facebook"></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="../multimedia/instagram.png" alt="instagram"></a>
+        <a href="https://www.facebook.com/variacionesdelaclinica" target="_blank"><img src="../multimedia/facebook black.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/psicologos.variaciones/" target="_blank"><img src="../multimedia/instagram black.png" alt="instagram"></a>
         </div>
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
