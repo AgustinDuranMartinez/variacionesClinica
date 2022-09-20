@@ -42,13 +42,22 @@
         </div>
       </nav>
 
-    <main class="main__nosotros">
-    <h1 class="principalH2">Contacto</h1>
+    <!-- <main class="main__nosotros"> -->
 
-    <div class="bloqueLinea">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7771968589764!2d-58.400470999999996!3d-34.6097951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaeed26efc13%3A0xcfa99d9b5a8f7086!2sRivadavia%20%26%20Azcu%C3%A9naga%2C%20C1034%20CABA!5e0!3m2!1ses-419!2sar!4v1660930939266!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
-    
-    <form action="" class="formulario">
+      <h1 class="mb-md-5 display-3 text-center mt-5">
+        CONTACTO
+      </h1>
+
+    <!-- <div class="bloqueLinea"> -->
+   <section class="container">
+    <article>
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7771968589764!2d-58.400470999999996!3d-34.6097951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaeed26efc13%3A0xcfa99d9b5a8f7086!2sRivadavia%20%26%20Azcu%C3%A9naga%2C%20C1034%20CABA!5e0!3m2!1ses-419!2sar!4v1660930939266!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe> -->
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2657.007271323695!2d-58.40045942657368!3d-34.609709688842514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaeed26efc13%3A0xcfa99d9b5a8f7086!2sRivadavia%20%26%20Azcu%C3%A9naga%2C%20C1034%20CABA!5e0!3m2!1ses-419!2sar!4v1663698333507!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </article>
+        <!-- ALTERNATIIVA DE FORMULARIO -->
+    <!-- <form action="" class="formulario">
 
         <p>Nombre:</p>
         <input type="text">
@@ -64,10 +73,36 @@
         <input type="submit" value="Enviar mensaje">
 
         <input type="reset" value="Limpiar mensaje">
+    </form> -->
 
+<article class="formulario">
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Escribe tu Mensaje</label>
+        <input type="text" class="form-control" id="inputAddress">
+        <!-- <textarea name="" id="" cols="40" rows="5" class="mensajeContacto"></textarea> -->
+      </div>
+    
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <input type="reset" value="Limpiar mensaje" class="btn btn-primary">
+      </div>
     </form>
-    </div>
-    </main>
+
+  </article>
+  </section>
+
+    <!-- </div> -->
+
+    <!-- </main> -->
 
     <footer class="footer__nosotros bg-light">
         <p class="redesPN lead">Redes sociales</p>
