@@ -310,7 +310,6 @@ width: 50px;
 width: 50px;
 }
 
-                            /* HASTA ACA ESTA REVISADO Y PASADO AL SCSS */
 
 
 /* PARA TABLET EN PAGINA NOSOTROS, SERVICIOS, GALERIA Y CONTACTO-- 768px */
@@ -339,10 +338,12 @@ width: 50px;
         margin: 100px 1px 1px 1px;
         font-size: 80px;
     } */
+
     .redesPN{
         color: #355070;
         font-size: 20px;
     }
+
     .redesN img{
     width: 60px;
     }
@@ -388,8 +389,6 @@ width: 50px;
     .cajaGrid{
         display: flex;
         flex-direction: column;
-        
-      
     }
 
     /* CONTACTO */
@@ -398,6 +397,9 @@ width: 50px;
     }
 
 }
+
+
+                                /* HASTA ACA ESTA REVISADO Y PASADO AL SCSS */
 
 
 /* PARA CELULAR EN PAGINA NOSOTROS, GALERIA Y CONTACTO-- 500px */
@@ -459,10 +461,10 @@ width: 50px;
         flex-direction: column-reverse;
     }
     
-    .iframe{
-        /* margin: 200px 1px 1px 90px; */
+    /* .iframe{
+        margin: 200px 1px 1px 90px;
 
-    }
+    } */
     
     .formulario{
         margin: 150px 1px 1px 1px;

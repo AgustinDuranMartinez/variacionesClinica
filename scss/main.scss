@@ -62,3 +62,36 @@ form{
 width: 50px;
 }
 }
+
+
+
+/* PARA TABLET EN PAGINA NOSOTROS, SERVICIOS, GALERIA Y CONTACTO-- 768px */
+
+@media screen and (max-width: 768px){
+
+/*REDES*/
+
+.redesPN{
+    color: #355070;
+    font-size: 20px;
+}
+
+.redesN img{
+width: 60px;
+}
+
+  
+/* GALERIA */
+
+.galeria img{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+}
+
+.cajaGrid{
+    display: flex;
+    flex-direction: column; 
+}
+
+}
