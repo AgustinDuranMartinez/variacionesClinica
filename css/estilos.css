@@ -34,15 +34,7 @@ h1{
 }
 
 /* INDEX */
-.principalH1{
-    font-size: 60px;
-    margin: 150px 50px 1px 50px;
-    padding: 5px;
-}
 
-.cajaPIndex{
-    margin: 350px 50px 50px 50px;
-}
 
 /* PARA EL NAV DEL INDEX */
 
@@ -72,29 +64,17 @@ h1{
     
     }
 
-p{
-    /* color: #6D597A; */
-    font-size: 15px;
-}
 
 form{
     text-align: center;
 }
 
-.imagenFondo{
-    background-image: url("../multimedia/consultorio\ 1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 395px;
-    padding: 100px 5px;
-    margin: 10px 5px 100px 5px;
-}
 
 /* NOSOTROS BOOTSTRAP */
 
 .mainNosotros{
     margin: 150px 1px;
-    /* background-color: rgba(209, 177, 199, 0.144); */
+
 }
 
 
@@ -330,50 +310,13 @@ width: 50px;
 width: 50px;
 }
 
-.headerLogo2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-.headerLogo2 img{
-    margin: 1px 10px;
-    width: 200px;
-    height: 150px;
-}
-.headerLogo2 ul{
-    margin: 5px 30px 5px 10px;
-    padding: 1px 1px 1px 1px;
-    height: 5px;
-}
-
-.headerLogo2 ul li{
-    display: inline-block;
-    margin: 5px;
-    padding: 1px;
-    font-size: 20px;
-    
-    }
+                            /* HASTA ACA ESTA REVISADO Y PASADO AL SCSS */
 
 
 /* PARA TABLET EN PAGINA NOSOTROS, SERVICIOS, GALERIA Y CONTACTO-- 768px */
 
 @media screen and (max-width: 768px){
 
-    .headerLogo2 img{
-        width: 350px;
-        height: 250px;
-    }
-    .headerLogo2 ul{
-    
-        height: 270px;
-    }
-    .headerLogo2 ul li{
-        display: block;
-        margin: 1px 80px 1px 1px;
-        font-size: 40px;
-        }
 
         .principalH2{
             font-size: 100px;
@@ -392,10 +335,10 @@ width: 50px;
             font-size: 33px;
         }
     
-    .footer__nosotros{
+    /* .footer__nosotros{
         margin: 100px 1px 1px 1px;
         font-size: 80px;
-    }
+    } */
     .redesPN{
         color: #355070;
         font-size: 20px;
@@ -457,9 +400,13 @@ width: 50px;
 }
 
 
-/* PARA CELULAR EN PAGINA NOSOTROS Y CONTACTO-- 500px */
+/* PARA CELULAR EN PAGINA NOSOTROS, GALERIA Y CONTACTO-- 500px */
 
  @media screen and (max-width: 500px){
+
+    .cajaGrid{
+        margin: 0;
+    }
 
     .headerLogo2 img{
         width: 450px;
@@ -513,7 +460,7 @@ width: 50px;
     }
     
     .iframe{
-        margin: 200px 1px 1px 90px;
+        /* margin: 200px 1px 1px 90px; */
 
     }
     
