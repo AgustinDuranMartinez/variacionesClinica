@@ -1,9 +1,3 @@
-@import "index";
-@import "nosotros";
-@import "servicios";
-@import "galeria";
-@import "contacto";
-
 
 
 /* COLORES */
@@ -21,7 +15,7 @@ h1{
     font-size: 40px;
 }
 
-// FORMULARIO
+/*FORMULARIO*/
 
 form{
     text-align: center;
@@ -64,6 +58,13 @@ width: 50px;
 }
 
 
+@import "index";
+@import "nosotros";
+@import "servicios";
+@import "galeria";
+@import "contacto";
+
+
 
 /* PARA TABLET EN PAGINA NOSOTROS, SERVICIOS, GALERIA Y CONTACTO-- 768px */
 
@@ -94,4 +95,35 @@ width: 60px;
     flex-direction: column; 
 }
 
+}
+
+
+/* PARA CELULAR EN PAGINAS INDEX, NOSOTROS, GALERIA Y CONTACTO-- 500px */
+
+@media screen and (max-width: 500px){
+
+    /*GALERIA*/
+    .cajaGrid{
+        margin: 0;
+    }
+
+    /*TODOS LOS FOOTER*/
+    .footer__nosotros{
+        margin: 100px 1px 1px 1px;
+        font-size: 100px;
+    }
+
+    /*REDES*/
+    .redesPN{
+        color: #355070;
+        font-size: 20px;
+    }
+    .redesN img{
+    width: 50px;
+    }
+    
+    /*CONTACTO*/
+    .formulario{
+        margin: 150px 1px 1px 1px;
+    }
 }

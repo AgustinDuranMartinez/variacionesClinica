@@ -410,36 +410,6 @@ width: 50px;
         margin: 0;
     }
 
-    .headerLogo2 img{
-        width: 450px;
-        height: 350px;
-    }
-    .headerLogo2 ul{
-        height: 400px;
-    }
-
-    .headerLogo2 ul li{
-        display: block;
-        margin: 1px 60px 1px 1px;
-        font-size: 60px;
-        }
-
-        .principalH2{
-            font-size: 150px;
-        }
-
-        .cajaUnoNosotros{
-           display: block;
-        }
-        
-        .cajaUnoNosotros img{
-            height: 600px;
-            width: 900px;
-        }
-        .cajaUnoNosotrosP{
-            margin: 80px 50px;
-            font-size: 45px;
-        }
     
     .footer__nosotros{
         margin: 100px 1px 1px 1px;
@@ -455,11 +425,11 @@ width: 50px;
     }
 
 
-    .bloqueLinea{
+    /* .bloqueLinea{
         padding: 1px 1px 1px 10px ;
         display: flex;
         flex-direction: column-reverse;
-    }
+    } */
     
     /* .iframe{
         margin: 200px 1px 1px 90px;
@@ -470,7 +440,7 @@ width: 50px;
         margin: 150px 1px 1px 1px;
     }
     
-    .mensajeContacto{
+    /* .mensajeContacto{
         margin: 10px 10px 10px 265px;
-    }
+    } */
 }
