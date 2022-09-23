@@ -2,8 +2,8 @@
 body {
   background-color: #fefae0; }
 
-.bg-light {
-  background-color: #E9EDC9 !important; }
+.bg-verdolaga {
+  background-color: #E9EDC9; }
 
 h1 {
   text-align: center;
@@ -84,7 +84,13 @@ form {
 
 .btn-primary {
   background-color: rgba(24, 131, 24, 0.575);
-  border-color: rgba(24, 131, 24, 0.575); }
+  border-color: rgba(24, 131, 24, 0.575);
+  transition: all 0.25s ease-in-out; }
+
+.btn:first-child:hover, :not(.btn-check) + .btn:hover {
+  background-color: rgba(20, 109, 20, 0.575);
+  border-color: rgba(20, 109, 20, 0.575);
+  transform: scale(0.9); }
 
 /* PARA TABLET EN PAGINA NOSOTROS, SERVICIOS, GALERIA Y CONTACTO-- 768px */
 @media screen and (max-width: 768px) {
