@@ -5,59 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link href="../css/estilos.css" rel="stylesheet"/>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link href="../css/main.css" rel="stylesheet"/>
     <link rel="shortcut icon" href="../multimedia/Logo 3.jpg">
     
-       <!-- Google Fonts -->
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
 </head>
-<body class="bodyGrid2">
-    <header class="headerLogo2 header__nosotros">
-            <img src="../multimedia/lgo variaciones.png" alt="Logo">
-            
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="galeria.html">Galeria</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </header>
-    <main class="main__nosotros">
-    <h1 class="principalH2">Contacto</h1>
+<body>
+    <nav class="navbar navbar-expand-lg bg-verdolaga headerLogo">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../multimedia/lgo variaciones.png" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <div class="bloqueLinea">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7771968589764!2d-58.400470999999996!3d-34.6097951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaeed26efc13%3A0xcfa99d9b5a8f7086!2sRivadavia%20%26%20Azcu%C3%A9naga%2C%20C1034%20CABA!5e0!3m2!1ses-419!2sar!4v1660930939266!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
+      <h1 class="mb-md-5 display-3 text-center mt-5">
+        CONTACTO
+      </h1>
+
+   <section class="container">
+    <article>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2657.007271323695!2d-58.40045942657368!3d-34.609709688842514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaeed26efc13%3A0xcfa99d9b5a8f7086!2sRivadavia%20%26%20Azcu%C3%A9naga%2C%20C1034%20CABA!5e0!3m2!1ses-419!2sar!4v1663698333507!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </article>
+      
+
+      <article class="formulario">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+             <label for="inputPassword4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Escribe tu Mensaje</label>
+            <!-- <input type="text" class="form-control" id="inputAddress"> -->
+            <textarea name="" id="" cols="10" rows="3" class="form-control"></textarea>
+
+          </div>
     
-    <form action="" class="formulario">
+          <div class="col-12">
+           <button type="submit" class="btn btn-primary">Enviar</button>
+            <input type="reset" value="Limpiar mensaje" class="btn btn-primary">
+          </div>
+        </form>
 
-        <p>Nombre:</p>
-        <input type="text">
+      </article>
+    </section>
 
-        <p>Email</p>
-        <input type="email">
 
-        <p>Escriba su mensaje</p>
-        <textarea name="" id="" cols="30" rows="10" class="mensajeContacto"></textarea>
-
-        <input type="button" value="No hace nada">
-
-        <input type="submit" value="Enviar mensaje">
-
-        <input type="reset" value="Limpiar mensaje">
-
-    </form>
-    </div>
-    </main>
-
-    <footer class="footer__nosotros">
-        <p class="redesPN">Redes sociales</p>
+    <footer class="footer__nosotros bg-verdolaga">
+        <p class="redesPN lead">Redes sociales</p>
         <div class="redesN">
-        <a href="https://www.facebook.com/" target="_blank"><img src="../multimedia/facebook.png" alt="facebook"></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="../multimedia/instagram.png" alt="instagram"></a>
+        <a href="https://www.facebook.com/variacionesdelaclinica" target="_blank"><img src="../multimedia/facebook black.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/psicologos.variaciones/" target="_blank"><img src="../multimedia/instagram black.png" alt="instagram"></a>
         </div>
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

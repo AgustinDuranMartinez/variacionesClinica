@@ -5,47 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link href="css/estilos.css" rel="stylesheet"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link href="css/main.css" rel="stylesheet"/>
     <link rel="shortcut icon" href="multimedia/Logo 3.jpg">
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
 </head>
-<body class="bodyGrid1">
-    <header class="headerLogo header__index">
-        <img src="multimedia/lgo variaciones.png" alt="Logo">
-           
-                <ul>
-                  <li><a href="../index.html">Inicio</a></li>
-                  <li><a href="paginas/nosotros.html">Nosotros</a></li>
-                  <li><a href="paginas/servicios.html">Servicios</a></li>
-                  <li><a href="paginas/galeria.html">Galeria</a></li>
-                  <li><a href="paginas/contacto.html">Contacto</a></li>
-                </ul>
-    </header>
-    <main class="imagenFondo main__index">
-        <h1 class="principalH1">
-        Variaciones de la Clinica
-    </h1>
-    <div class="cajaPIndex">
-         <p>
-        En el año 2002, un grupo de profesionales dedicados a la salud mental, nos unimos con el fin de acercar a la comunidad  la asistencia psicológica, para que ésta no sea un privilegio
-En ese momento abrimos las  puertas del Centro Psicológico Causar, nombre que sostuvimos hasta el 2015.
-Hoy,  y por cuestiones que hacen al quehacer de  nuestra práctica institucional, comienza a tomar forma el deseo y la necesidad de dar lugar, a un nuevo nombre.
-Así surge Variaciones de la Clínica. Un nuevo (otro) nombre que va tomando volumen y textura,  apostando a un espacio privilegiado y único, enmarcando al sujeto en su singularidad, y que a través de la cadencia de sus palabras y a su propio ritmo pueda ir surcando un camino (o trayecto)  que le posibilite apropiarse de su deseo.
-
-         </p>
-    </div>
-</main>
-
-    <footer class="footer__index">
-        <p class="redesP">Redes sociales</p>
-        <div class="redes">
-        <a href="https://www.facebook.com/" target="_blank"><img src="multimedia/facebook.png" alt="facebook"></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="multimedia/instagram.png" alt="instagram"></a>
+<body>
+    <nav class="navbar navbar-expand-lg bg-verdolaga headerLogo">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="multimedia/lgo variaciones.png" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paginas/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paginas/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paginas/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </footer>
+      </nav>
+<header>
+
+  <h1 class="mb-md-5 display-3 text-center mt-5">
+    VARIACIONES DE LA CLINICA
+  </h1>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="multimedia/dan-gold-4HG3Ca3EzWw-unsplash.jpg" class="d-block w-100" alt="depto">
+          </div>
+          <div class="carousel-item">
+            <img src="multimedia/nathan-fertig-FBXuXp57eM0-unsplash.jpg" class="d-block w-100" alt="depto">
+          </div>
+          <div class="carousel-item">
+            <img src="multimedia/croissant--BiyRLfotEQ-unsplash.jpg" class="d-block w-100" alt="depto">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+ </header>
+    
+ <footer class="footer__nosotros bg-verdolaga ">
+    <p class="redesPN lead">Redes sociales</p>
+    <div class="redesN">
+    <a href="https://www.facebook.com/variacionesdelaclinica" target="_blank"><img src="multimedia/facebook black.png" alt="facebook"></a>
+    <a href="https://www.instagram.com/psicologos.variaciones/" target="_blank"><img src="multimedia/instagram black.png" alt="instagram"></a>
+    </div>
+</footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

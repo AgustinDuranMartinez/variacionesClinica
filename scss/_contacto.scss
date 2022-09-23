@@ -1,0 +1,16 @@
+/*CONTACTO*/
+.formulario{
+    margin: 50px 1px 50px 1px;
+}
+
+.btn-primary{
+    background-color: rgba(24, 131, 24, 0.575);
+    border-color:  rgba(24, 131, 24, 0.575);
+    transition: all 0.25s ease-in-out;
+}
+
+.btn:first-child:hover, :not(.btn-check)+.btn:hover{
+    background-color: rgba(20, 109, 20, 0.575);
+    border-color:  rgba(20, 109, 20, 0.575);
+    transform: scale(0.9);
+}

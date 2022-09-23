@@ -1,5 +1,5 @@
 /*para cambiar la medida del rem, 1rem = a 10px. Esto se usa para que tambien se adapte al celular*/
-html{
+/* html{
     font-size: 62.5%;
 }
 
@@ -11,12 +11,21 @@ body{
     background-color: #EAAC8B;
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-}
+} */
 
 
 /* .footerGaleria{
     margin: 60px 0px 0px 0px;
 } */
+
+/* COLORES */
+body{
+    background-color: #fefae0;
+}
+
+.bg-light{
+    background-color: #E9EDC9 !important;
+}
 
 h1{
     text-align: center;
@@ -25,17 +34,10 @@ h1{
 }
 
 /* INDEX */
-.principalH1{
-    font-size: 60px;
-    margin: 150px 50px 1px 50px;
-    padding: 5px;
-}
 
-.cajaPIndex{
-    margin: 350px 50px 50px 50px;
-}
 
-/* PARA EL HEADER DE INDEX */
+/* PARA EL NAV DEL INDEX */
+
 .headerLogo{
     display: flex;
     align-items: center;
@@ -62,22 +64,17 @@ h1{
     
     }
 
-p{
-    color: #6D597A;
-    font-size: 15px;
-}
 
 form{
     text-align: center;
 }
 
-.imagenFondo{
-    background-image: url("../multimedia/consultorio\ 1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 395px;
-    padding: 100px 5px;
-    margin: 10px 5px 100px 5px;
+
+/* NOSOTROS BOOTSTRAP */
+
+.mainNosotros{
+    margin: 150px 1px;
+
 }
 
 
@@ -93,7 +90,7 @@ form{
 }
 
 .formulario{
-    margin: 50px 1px 1px 1px;
+    margin: 50px 1px 50px 1px;
 }
 
 .mensajeContacto{
@@ -303,60 +300,22 @@ width: 50px;
 .footer__nosotros{
     grid-area: footer;
     background-color: #B56576;
-    margin: 200px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 .redesPN{
-    color: white;
+    color: #355070;
 }
 .redesN img{
 width: 50px;
 }
 
-.headerLogo2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-.headerLogo2 img{
-    margin: 1px 10px;
-    width: 200px;
-    height: 150px;
-}
-.headerLogo2 ul{
-    margin: 5px 30px 5px 10px;
-    padding: 1px 1px 1px 1px;
-    height: 5px;
-}
-
-.headerLogo2 ul li{
-    display: inline-block;
-    margin: 5px;
-    padding: 1px;
-    font-size: 20px;
-    
-    }
 
 
 /* PARA TABLET EN PAGINA NOSOTROS, SERVICIOS, GALERIA Y CONTACTO-- 768px */
 
 @media screen and (max-width: 768px){
 
-    .headerLogo2 img{
-        width: 350px;
-        height: 250px;
-    }
-    .headerLogo2 ul{
-    
-        height: 270px;
-    }
-    .headerLogo2 ul li{
-        display: block;
-        margin: 1px 80px 1px 1px;
-        font-size: 40px;
-        }
 
         .principalH2{
             font-size: 100px;
@@ -375,16 +334,18 @@ width: 50px;
             font-size: 33px;
         }
     
-    .footer__nosotros{
-        margin: 400px 1px 1px 1px;
+    /* .footer__nosotros{
+        margin: 100px 1px 1px 1px;
         font-size: 80px;
-    }
+    } */
+
     .redesPN{
-        color: white;
-        font-size: 30px;
+        color: #355070;
+        font-size: 20px;
     }
+
     .redesN img{
-    width: 70px;
+    width: 60px;
     }
 
        /* SERVICIOS */
@@ -428,8 +389,6 @@ width: 50px;
     .cajaGrid{
         display: flex;
         flex-direction: column;
-        
-      
     }
 
     /* CONTACTO */
@@ -440,71 +399,48 @@ width: 50px;
 }
 
 
-/* PARA CELULAR EN PAGINA NOSOTROS Y CONTACTO-- 500px */
+                                /* HASTA ACA ESTA REVISADO Y PASADO AL SCSS */
+
+
+/* PARA CELULAR EN PAGINA NOSOTROS, GALERIA Y CONTACTO-- 500px */
 
  @media screen and (max-width: 500px){
 
-    .headerLogo2 img{
-        width: 450px;
-        height: 350px;
-    }
-    .headerLogo2 ul{
-        height: 400px;
+    .cajaGrid{
+        margin: 0;
     }
 
-    .headerLogo2 ul li{
-        display: block;
-        margin: 1px 60px 1px 1px;
-        font-size: 60px;
-        }
-
-        .principalH2{
-            font-size: 150px;
-        }
-
-        .cajaUnoNosotros{
-           display: block;
-        }
-        
-        .cajaUnoNosotros img{
-            height: 600px;
-            width: 900px;
-        }
-        .cajaUnoNosotrosP{
-            margin: 80px 50px;
-            font-size: 45px;
-        }
     
     .footer__nosotros{
-        margin: 400px 1px 1px 1px;
+        margin: 100px 1px 1px 1px;
         font-size: 100px;
     }
 
     .redesPN{
-        color: white;
-        font-size: 40px;
+        color: #355070;
+        font-size: 20px;
     }
     .redesN img{
-    width: 100px;
+    width: 50px;
     }
 
 
-    .bloqueLinea{
+    /* .bloqueLinea{
         padding: 1px 1px 1px 10px ;
         display: flex;
         flex-direction: column-reverse;
-    }
+    } */
     
-    .iframe{
+    /* .iframe{
         margin: 200px 1px 1px 90px;
 
-    }
+    } */
     
     .formulario{
         margin: 150px 1px 1px 1px;
     }
     
-    .mensajeContacto{
+    /* .mensajeContacto{
         margin: 10px 10px 10px 265px;
-    }
+    } */
 }
