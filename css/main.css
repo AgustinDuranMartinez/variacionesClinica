@@ -25,8 +25,7 @@ form {
     height: 150px; }
   .headerLogo ul {
     margin: 5px 30px 5px 10px;
-    padding: 1px 1px 1px 1px;
-    height: 5px; }
+    padding: 1px 1px 1px 1px; }
     .headerLogo ul li {
       display: inline-block;
       margin: 5px;
@@ -45,6 +44,12 @@ form {
 /*NOSOTROS*/
 .mainNosotros {
   margin: 150px 1px; }
+
+.claseAos1 {
+  overflow: hidden; }
+
+.claseAos2 {
+  overflow: hidden; }
 
 /* GALERIA, INTENTANDO USAR GRID */
 .gallery-container {
