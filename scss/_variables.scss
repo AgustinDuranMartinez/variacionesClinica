@@ -1,0 +1,34 @@
+
+/*MAP GET*/
+/*DECLARAR MAPA*/
+$estilos:(
+    color: #163253,
+    colorFondo1: #fefae0,
+    colorFondo2: #E9EDC9,
+    alineacion: center,
+    fuente: 1.25rem,
+    tamaño: 300, /*font-weight*/
+);
+
+/*CLASES*/
+.cajaMap1{
+    color: map-get($estilos, color);
+    text-align: map-get($estilos, alineacion);
+}
+
+.cajaP1{
+    color: map-get($estilos, color);
+    font-size: map-get($estilos, fuente);
+    font-weight: map-get($estilos, tamaño);
+}
+
+/*EXTEND*/
+.cajaMap2{
+    @extend .cajaMap1;
+    color: #165328;
+}
+
+.cajaP2{
+    @extend .cajaP1;
+    color: #165328;
+}

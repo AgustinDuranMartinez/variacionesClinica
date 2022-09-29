@@ -5,11 +5,6 @@ body {
 .bg-verdolaga {
   background-color: #E9EDC9; }
 
-h1 {
-  text-align: center;
-  color: #355070;
-  font-size: 40px; }
-
 /*FORMULARIO*/
 form {
   text-align: center; }
@@ -41,14 +36,12 @@ form {
   width: 50px;
   margin: 1px 1px 3px 3px; }
 
+/*INICIO DEL IMPORT*/
 /*NOSOTROS*/
 .mainNosotros {
   margin: 150px 1px; }
 
 .claseAos1 {
-  overflow: hidden; }
-
-.claseAos2 {
   overflow: hidden; }
 
 /* GALERIA, INTENTANDO USAR GRID */
@@ -101,6 +94,26 @@ form {
   border-color: rgba(20, 109, 20, 0.575);
   transform: scale(0.9); }
 
+/*MAP GET*/
+/*DECLARAR MAPA*/
+/*CLASES*/
+.cajaMap1, .cajaMap2 {
+  color: #163253;
+  text-align: center; }
+
+.cajaP1, .cajaP2 {
+  color: #163253;
+  font-size: 1.25rem;
+  font-weight: 300; }
+
+/*EXTEND*/
+.cajaMap2 {
+  color: #165328; }
+
+.cajaP2 {
+  color: #165328; }
+
+/*FIN DEL IMPORT*/
 /* PARA TABLET EN PAGINA NOSOTROS, SERVICIOS, GALERIA Y CONTACTO-- 768px */
 @media screen and (max-width: 768px) {
   /*REDES*/

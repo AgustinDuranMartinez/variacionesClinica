@@ -6,14 +6,14 @@ body{
 }
 
 .bg-verdolaga{
-    background-color: #E9EDC9
+    background-color: #E9EDC9;
 }
 
-h1{
-    text-align: center;
-    color: #355070;
-    font-size: 40px;
-}
+// h1{
+//     text-align: center;
+//     color: #355070;
+//     font-size: 40px;
+// }
 
 /*FORMULARIO*/
 
@@ -57,14 +57,14 @@ margin: 1px 1px 3px 3px
 }
 }
 
-
+                /*INICIO DEL IMPORT*/
 @import "index";
 @import "nosotros";
 @import "servicios";
 @import "galeria";
 @import "contacto";
-
-
+@import "variables";
+                /*FIN DEL IMPORT*/
 
 /* PARA TABLET EN PAGINA NOSOTROS, SERVICIOS, GALERIA Y CONTACTO-- 768px */
 
