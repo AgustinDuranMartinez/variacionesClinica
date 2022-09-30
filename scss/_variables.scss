@@ -32,3 +32,15 @@ $estilos:(
     @extend .cajaP1;
     color: #165328;
 }
+
+/*MIXINS*/
+@mixin redes($color, $margin){
+    color: $color;
+    margin: $margin;
+}
+// @mixin red{
+//     color: #355070;
+//     margin: 1px 1px 3px 3px;
+// }
+
+/*CLASE REDES ARMADA EN MAIN.SCSS CON UN INCLUDE*/

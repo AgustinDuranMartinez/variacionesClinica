@@ -19,3 +19,5 @@
 
   -Variables: En el archivo variables agregue contenido. 
  Declare un mapa y utilice map-get, extendí una clase base y la modifique.
+ Se creo un Mixin en el archivo variables y luego se incluyo en la clase redesPN 
+ dentro del archivo main en la seccion titulada REDES.

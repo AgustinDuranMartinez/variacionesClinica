@@ -1,4 +1,11 @@
-
+                /*INICIO DEL IMPORT*/
+                @import "index";
+                @import "nosotros";
+                @import "servicios";
+                @import "galeria";
+                @import "contacto";
+                @import "variables";
+                                /*FIN DEL IMPORT*/
 
 /* COLORES */
 body{
@@ -45,10 +52,16 @@ form{
 }
 
 /*REDES*/
-
+// .redesPN{
+//     color: #355070;
+//     margin: 1px 1px 3px 3px
+// }
+/*TRAIDA DE VARIABLES*/
+// .redesPN{
+//     @include red;
+// }
 .redesPN{
-    color: #355070;
-    margin: 1px 1px 3px 3px
+    @include redes(#355070, 1px 1px 3px 3px);
 }
 .redesN{
     img{
@@ -57,14 +70,14 @@ margin: 1px 1px 3px 3px
 }
 }
 
-                /*INICIO DEL IMPORT*/
-@import "index";
-@import "nosotros";
-@import "servicios";
-@import "galeria";
-@import "contacto";
-@import "variables";
-                /*FIN DEL IMPORT*/
+//                 /*INICIO DEL IMPORT*/
+// @import "index";
+// @import "nosotros";
+// @import "servicios";
+// @import "galeria";
+// @import "contacto";
+// @import "variables";
+//                 /*FIN DEL IMPORT*/
 
 /* PARA TABLET EN PAGINA NOSOTROS, SERVICIOS, GALERIA Y CONTACTO-- 768px */
 
