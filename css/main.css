@@ -70,10 +70,10 @@
 
 /*EXTEND*/
 .cajaMap2 {
-  color: #165328; }
+  color: #294464; }
 
 .cajaP2 {
-  color: #165328; }
+  color: #294464; }
 
 /*MIXINS*/
 /*CLASE REDES ARMADA EN MAIN.SCSS CON UN INCLUDE*/
@@ -109,6 +109,10 @@ form {
 
 /*REDES*/
 /*TRAIDA DE VARIABLES*/
+.cajaFlex {
+  display: flex;
+  justify-content: space-between; }
+
 .redesPN {
   color: #355070;
   margin: 1px 1px 3px 3px; }
@@ -116,6 +120,10 @@ form {
 .redesN img {
   width: 50px;
   margin: 1px 1px 3px 3px; }
+
+.redesWhatsapp img {
+  width: 50px;
+  margin: 1px 10px 3px 3px; }
 
 /* PARA TABLET EN PAGINA NOSOTROS, SERVICIOS, GALERIA Y CONTACTO-- 768px */
 @media screen and (max-width: 768px) {
@@ -131,7 +139,9 @@ form {
     margin: 10px; }
   .cajaGrid {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .cajaFlex {
+    justify-content: space-evenly; } }
 
 /* PARA CELULAR EN PAGINAS INDEX, NOSOTROS, GALERIA Y CONTACTO-- 500px */
 @media screen and (max-width: 500px) {
@@ -148,7 +158,10 @@ form {
     font-size: 20px; }
   .redesN img {
     width: 50px;
-    margin: 10px 1px 1px 1px; }
+    margin: 10px 1px 1px 10px; }
+  .redesWhatsapp img {
+    width: 50px;
+    margin: 10px 10px 3px 3px; }
   /*CONTACTO*/
   .formulario {
     margin: 150px 1px 1px 1px; } }

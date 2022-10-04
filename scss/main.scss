@@ -60,24 +60,30 @@ form{
 // .redesPN{
 //     @include red;
 // }
+
+.cajaFlex{
+    display: flex;
+    justify-content: space-between
+}
+
 .redesPN{
     @include redes(#355070, 1px 1px 3px 3px);
 }
 .redesN{
     img{
-width: 50px;
-margin: 1px 1px 3px 3px
+        width: 50px;
+        margin: 1px 1px 3px 3px
 }
 }
-
-//                 /*INICIO DEL IMPORT*/
-// @import "index";
-// @import "nosotros";
-// @import "servicios";
-// @import "galeria";
-// @import "contacto";
-// @import "variables";
-//                 /*FIN DEL IMPORT*/
+.redesWhatsapp{
+    // position: fixed;
+    // right: 0;
+    // bottom: 10px;
+    img{
+        width: 50px;
+        margin: 1px 10px 3px 3px
+}
+}
 
 /* PARA TABLET EN PAGINA NOSOTROS, SERVICIOS, GALERIA Y CONTACTO-- 768px */
 
@@ -107,6 +113,10 @@ width: 60px;
     flex-direction: column; 
 }
 
+.cajaFlex{
+    justify-content: space-evenly
+}
+
 }
 
 
@@ -132,8 +142,13 @@ width: 60px;
     }
     .redesN img{
     width: 50px;
-    margin: 10px 1px 1px 1px;
+    margin: 10px 1px 1px 10px;
     }
+
+    .redesWhatsapp img{
+        width: 50px;
+        margin: 10px 10px 3px 3px
+}
     
     /*CONTACTO*/
     .formulario{
