@@ -6,7 +6,7 @@
 .claseAos1 {
   overflow: hidden; }
 
-/* GALERIA, INTENTANDO USAR GRID */
+/* GALERIA, USANDO GRID */
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -17,7 +17,43 @@
 .gallery__img {
   width: 100%;
   height: 100%;
-  object-fit: cover; }
+  object-fit: cover;
+  transition: .2s linear; }
+
+.gallery__img:hover {
+  transform: scale(1.02); }
+
+.popup-imagen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none; }
+  .popup-imagen span {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100; }
+  .popup-imagen img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover; }
+
+@media screen and (max-width: 768px) {
+  .popup-imagen img {
+    width: 95%; } }
 
 @media screen and (max-width: 500px) {
   .gallery-container {
@@ -112,6 +148,13 @@ form {
 .cajaFlex {
   display: flex;
   justify-content: space-between; }
+
+.cajaFlecha {
+  position: fixed;
+  right: 0;
+  bottom: 10%; }
+  .cajaFlecha img {
+    width: 35px; }
 
 .redesPN {
   color: #355070;

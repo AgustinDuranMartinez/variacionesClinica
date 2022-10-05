@@ -65,6 +65,14 @@ form{
     display: flex;
     justify-content: space-between
 }
+.cajaFlecha{
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+    img{
+        width: 35px;
+    }
+}
 
 .redesPN{
     @include redes(#355070, 1px 1px 3px 3px);

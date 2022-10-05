@@ -81,7 +81,11 @@
           <div class="claseFoto9">
             <img src="../multimedia/beigecito.jpeg" alt="foto" title="Consultorio9" class="gallery__img">
           </div>
+        </div>
 
+        <div class="popup-imagen">
+          <span>&times;</span>
+          <img src="../multimedia/sillonnaranja.jpg" alt="sillonnaranja" title="Consultorio1">
         </div>
 
     </main>
@@ -95,10 +99,24 @@
       <a href="https://www.instagram.com/psicologos.variaciones/" target="_blank"><img src="../multimedia/instagram black.png" alt="instagram"></a>
       </div>
       <div class="redesWhatsapp">
-        <a href="https://web.whatsapp.com/" target="_blank"><img src="../multimedia/whatsapp black.png" alt="whatsapp"></a>
+        <a href="https://api.whatsapp.com/send?phone=5491154549595&text=Hola!%20quiero%20contactarte!" target="_blank"><img src="../multimedia/whatsapp black.png" alt="whatsapp"></a>
       </div>
     </div>
   </footer>
+
+    <!-- Script para visualizacion en popup -->
+    <script>
+      document.querySelectorAll('.gallery__img').forEach(image =>{
+        image.onclick = () =>{
+          document.querySelector('.popup-imagen').style.display = 'block';
+          document.querySelector('.popup-imagen img').src = image.getAttribute('src');
+        }
+      });
+
+      document.querySelector('.popup-imagen span').onclick = () =>{
+        document.querySelector('.popup-imagen').style.display = 'none';
+      }
+    </script>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
