@@ -75,12 +75,12 @@ form{
 }
 
 .redesPN{
-    @include redes(#355070, 1px 1px 3px 3px);
+    @include redes(#355070, 1px 1px 3px 20px);
 }
 .redesN{
     img{
-        width: 50px;
-        margin: 1px 1px 3px 3px
+        width: 40px;
+        margin: 1px 1px 3px 20px
 }
 }
 .redesWhatsapp{
@@ -88,8 +88,8 @@ form{
     // right: 0;
     // bottom: 10px;
     img{
-        width: 50px;
-        margin: 1px 10px 3px 3px
+        width: 40px;
+        margin: 1px 20px 3px 3px
 }
 }
 
@@ -104,7 +104,7 @@ form{
 }
 
 .redesN img{
-width: 60px;
+width: 40px;
 }
 
   
@@ -160,6 +160,6 @@ width: 60px;
     
     /*CONTACTO*/
     .formulario{
-        margin: 150px 1px 1px 1px;
+        margin: 70px 1px 1px 1px;
     }
 }
