@@ -3,6 +3,14 @@
 .mainNosotros {
   margin: 150px 1px; }
 
+@media screen and (max-width: 768px) {
+  .mainNosotros {
+    margin: 90px 1px; } }
+
+@media screen and (max-width: 500px) {
+  .mainNosotros {
+    margin: 60px 1px; } }
+
 .claseAos1 {
   overflow: hidden; }
 
